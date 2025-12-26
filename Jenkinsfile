@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools{
-        jdk 'jdk17'
+        jdk 'javajenkins'
         nodejs 'node16'
         
     }
