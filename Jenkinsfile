@@ -6,7 +6,7 @@ pipeline {
         nodejs 'node16'
         
     }
-    
+    //define the environment variable for sonar scanner
     environment{
         SCANNER_HOME= tool 'dockersonarqube'
     }
